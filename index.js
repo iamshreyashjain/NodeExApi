@@ -1,6 +1,11 @@
 const express = require('express');
 var app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
+
+var setupSwagger = require('./swagger');
+setupSwagger(app);  // Move this after the middleware
 
 const userRouter = require('./routes/usersRoutes');
 
