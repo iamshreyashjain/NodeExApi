@@ -14,7 +14,7 @@ app.use('/users', userRouter);
 app.use('/products', productsRouter);
 
 app.get('/', (req, res) => {
-    res.send("<h1 style='color: blue; text-align: center;'>Hello, Swagger UI Page Link</h1> <a style='color: black; display:block ; text-align: center; text-decoration: none'; href = 'https://special-doodle-6wr49jv6w6vc56q9-3003.app.github.dev/shreyashJain/'>https://special-doodle-6wr49jv6w6vc56q9-3003.app.github.dev/shreyashJain/</a> ");
+    res.send("<h1 style='color: blue; text-align: center;'>Hello, Swagger UI Page Link</h1> <a style='color: black; display:block ; text-align: center; '; href = 'https://special-doodle-6wr49jv6w6vc56q9-3003.app.github.dev/shreyashJain/'>https://special-doodle-6wr49jv6w6vc56q9-3003.app.github.dev/shreyashJain/</a>");
 });
 
 app.listen(3003, () => {
