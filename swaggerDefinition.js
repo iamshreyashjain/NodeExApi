@@ -9,7 +9,7 @@ const swaggerDefinition = {
     },
     servers: [
       {
-        url: 'https://special-doodle-6wr49jv6w6vc56q9-3003.app.github.dev/', // Your server URL
+        url: 'https://jubilant-zebra-9wqj7p6vrvx27q67.github.dev/', // Your server URL
         description: 'Development server',
       },
     ],

@@ -14,9 +14,10 @@ app.use('/users', userRouter);
 app.use('/products', productsRouter);
 
 app.get('/', (req, res) => {
-    res.send("<h1 style='color: blue; text-align: center;'>Hello, Swagger UI Page Link</h1> <a style='color: black; display:block ; text-align: center; '; href = 'https://special-doodle-6wr49jv6w6vc56q9-3003.app.github.dev/shreyashJain/'>https://special-doodle-6wr49jv6w6vc56q9-3003.app.github.dev/shreyashJain/</a>");
+    res.send("<h1 style='color: blue; text-align: center;'>Hello, Swagger UI Page Link</h1> <a style='color: black; display:block ; text-align: center; '; href = 'https://jubilant-zebra-9wqj7p6vrvx27q67.github.dev/shreyashJain/'>Swagger Link</a>");
+
 });
 
-app.listen(3003, () => {
-    console.log('Server started on http://localhost:3003');
+app.listen(3005, () => {
+    console.log('Server started on http://localhost:3005');
 });
