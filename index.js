@@ -19,13 +19,13 @@ app.use('/products', productsRouter);
 
 app.get('/', (req, res) => {
     res.send(`
-        <h1 style="color: blue; text-align: center;">Hello, Swagger UI Page Link</h1>
-        <a style="color: black; display: block; text-align: center;" href="/swagger">Swagger Link</a>
+        <h1 style="color: black; text-align: center;">Hello, Swagger UI Page Link</h1>
+        <a style="color: blue; display: block; text-align: center;" href="https://nodeexapi.onrender.com/swagger">Swagger Link</a>
     `);
     
 
 });
 
-app.listen(3018, () => {
-    console.log('Server started on http://localhost:3018');
+app.listen(3001, () => {
+    console.log('Server started on http://localhost:3001/swagger');
 });

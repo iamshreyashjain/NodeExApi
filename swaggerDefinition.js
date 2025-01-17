@@ -9,7 +9,7 @@ const swaggerDefinition = {
     },
     servers: [
       {
-        url: 'https://jubilant-zebra-9wqj7p6vrvx27q67.github.dev/shreyashJain/swagger', // Your server URL
+        url: 'https://nodeexapi.onrender.com/swagger', // Your server URL
         description: 'Development server',
       },
     ],
