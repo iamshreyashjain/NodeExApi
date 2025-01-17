@@ -1,16 +1,20 @@
 const express = require('express');
 const htmlPage = require('./')
+
 var app = express();
+
 app.use(express.json());
+
 app.use(express.urlencoded({ extended: false }));
 
 var setupSwagger = require('./swagger');
+
 setupSwagger(app);  // Ensure Swagger setup is after middleware
 
 const userRouter = require('./routes/usersRoutes');
-const productsRouter = require('./routes/productsRoutes');
-
 app.use('/users', userRouter);
+
+const productsRouter = require('./routes/productsRoutes');
 app.use('/products', productsRouter);
 
 app.get('/', (req, res) => {

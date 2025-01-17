@@ -1,0 +1,11 @@
+# Exported from Render on 2025-01-17T13:58:20Z
+services:
+- type: web
+  name: NodeExApi
+  runtime: node
+  repo: https://github.com/iamshreyashjain/NodeExApi
+  plan: free
+  region: oregon
+  buildCommand: yarn
+  startCommand: yarn start
+version: "1"
