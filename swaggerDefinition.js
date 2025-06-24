@@ -3,8 +3,8 @@
 const swaggerDefinition = {
     openapi: '3.0.0', // OpenAPI version
     info: {
-      title: 'ShreyashJain', // Title of the API
-      version: '1.0.0', // Version of the API
+      title: 'Shreyash Jain', // Title of the API
+      version: '2.0.0', // Version of the API
       description: 'Just for testing and learning', // Short description of the API
     },
     servers: [
